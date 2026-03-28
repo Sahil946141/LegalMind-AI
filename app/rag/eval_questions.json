@@ -1,0 +1,78 @@
+[
+  {
+    "category": "direct",
+    "question": "Who are the parties involved in the agreement?",
+    "expected_answer": "Electric City Corp. and Electric City of Illinois L.L.C.",
+    "expected_keywords": ["Electric City Corp", "Electric City of Illinois"]
+  },
+  {
+    "category": "direct",
+    "question": "What product does the Company sell?",
+    "expected_keywords": ["energy efficiency device", "Energy Saver"]
+  },
+  {
+    "category": "direct",
+    "question": "Is the distributor exclusive?",
+    "expected_keywords": ["yes", "exclusive distributor"]
+  },
+  {
+    "category": "direct",
+    "question": "What is the duration of the agreement?",
+    "expected_keywords": ["10 years", "ten years"]
+  },
+  {
+    "category": "direct",
+    "question": "What is the payment term?",
+    "expected_keywords": ["30 days", "thirty (30) days"]
+  },
+  {
+    "category": "direct",
+    "question": "What law governs the agreement?",
+    "expected_keywords": ["Illinois", "State of Illinois"]
+  },
+  {
+    "category": "paraphrased",
+    "question": "Who signed this contract?",
+    "expected_keywords": ["Electric City Corp", "Electric City of Illinois"]
+  },
+  {
+    "category": "paraphrased",
+    "question": "What item is the Company selling?",
+    "expected_keywords": ["Energy Saver", "energy efficiency device"]
+  },
+  {
+    "category": "paraphrased",
+    "question": "Does the distributor have sole rights in Illinois?",
+    "expected_keywords": ["yes", "exclusive"]
+  },
+  {
+    "category": "paraphrased",
+    "question": "When does the distributor have to pay?",
+    "expected_keywords": ["30 days", "thirty (30) days"]
+  },
+  {
+    "category": "hard",
+    "question": "What happens if the Company delays delivery and the Distributor loses customer orders?",
+    "expected_keywords": ["credited", "minimum expectation"]
+  },
+  {
+    "category": "hard",
+    "question": "When can the agreement be terminated immediately?",
+    "expected_keywords": ["insolvent", "bankruptcy", "discontinues its business"]
+  },
+  {
+    "category": "hard",
+    "question": "What happens to the distributor's right to use the Company name after termination?",
+    "expected_keywords": ["no further right", "license", "terminate"]
+  },
+  {
+    "category": "negative",
+    "question": "What is the arbitration clause?",
+    "expected_keywords": ["not found in context"]
+  },
+  {
+    "category": "negative",
+    "question": "What commission percentage does the distributor receive?",
+    "expected_keywords": ["not found in context"]
+  }
+]

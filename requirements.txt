@@ -1,0 +1,37 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Authentication
+python-jose
+passlib[argon2]
+pydantic-settings
+python-dotenv
+email-validator
+
+# Database
+psycopg2-binary
+
+# Core dependencies
+pydantic
+
+# RAG and AI (add your existing dependencies here)
+# pinecone-client
+# openai
+# langchain
+# chromadb
+# sentence-transformers
+
+# Worker/Queue (if using Celery)
+# celery
+# redis
+
+# File processing
+# pypdf2
+# python-multipart
+
+# Other utilities
+pathlib
+uuid
+logging
+shutil

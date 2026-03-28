@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 15% 13%;
+    --foreground: 220 14% 90%;
+
+    --card: 220 16% 16%;
+    --card-foreground: 220 14% 90%;
+
+    --popover: 220 16% 16%;
+    --popover-foreground: 220 14% 90%;
+
+    --primary: 210 100% 60%;
+    --primary-foreground: 220 15% 6%;
+
+    --secondary: 220 14% 20%;
+    --secondary-foreground: 220 14% 85%;
+
+    --muted: 220 14% 18%;
+    --muted-foreground: 220 9% 55%;
+
+    --accent: 220 14% 22%;
+    --accent-foreground: 220 14% 90%;
+
+    --destructive: 0 62% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 14% 22%;
+    --input: 220 14% 22%;
+    --ring: 210 100% 60%;
+
+    --radius: 0.75rem;
+
+    --status-ready: 152 60% 45%;
+    --status-processing: 38 85% 55%;
+
+    --glow-primary: 210 100% 60%;
+    --surface-elevated: 220 16% 19%;
+
+    --sidebar-background: 220 16% 10%;
+    --sidebar-foreground: 220 9% 55%;
+    --sidebar-primary: 210 100% 60%;
+    --sidebar-primary-foreground: 220 15% 6%;
+    --sidebar-accent: 220 14% 16%;
+    --sidebar-accent-foreground: 220 14% 90%;
+    --sidebar-border: 220 14% 16%;
+    --sidebar-ring: 210 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    background: hsl(210 100% 60% / 0.3);
+    color: hsl(220 14% 95%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(220 14% 25%);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(220 14% 35%);
+  }
+}
+
+@layer components {
+  .badge-ready {
+    background-color: hsl(var(--status-ready) / 0.15);
+    color: hsl(var(--status-ready));
+  }
+  .badge-processing {
+    background-color: hsl(var(--status-processing) / 0.15);
+    color: hsl(var(--status-processing));
+  }
+  .badge-failed {
+    background-color: hsl(var(--destructive) / 0.15);
+    color: hsl(var(--destructive));
+  }
+
+  .glass-card {
+    background: hsl(220 16% 16% / 0.8);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(220 14% 24%);
+  }
+
+  .glow-border {
+    box-shadow: 0 0 0 1px hsl(210 100% 60% / 0.15),
+                0 0 20px -5px hsl(210 100% 60% / 0.1);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(210 100% 70%), hsl(210 100% 55%), hsl(260 80% 65%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .surface-elevated {
+    background: hsl(var(--surface-elevated));
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+}

@@ -1,0 +1,272 @@
+{
+  "summary": {
+    "total_questions": 15,
+    "passed": 0,
+    "failed": 15,
+    "accuracy": 0.0,
+    "by_category": {
+      "direct": {
+        "total": 6,
+        "passed": 0,
+        "failed": 6
+      },
+      "paraphrased": {
+        "total": 4,
+        "passed": 0,
+        "failed": 4
+      },
+      "hard": {
+        "total": 3,
+        "passed": 0,
+        "failed": 3
+      },
+      "negative": {
+        "total": 2,
+        "passed": 0,
+        "failed": 2
+      }
+    }
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "category": "direct",
+      "question": "Who are the parties involved in the agreement?",
+      "expected_answer": "Electric City Corp. and Electric City of Illinois L.L.C.",
+      "expected_keywords": [
+        "Electric City Corp",
+        "Electric City of Illinois"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 2,
+      "category": "direct",
+      "question": "What product does the Company sell?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "energy efficiency device",
+        "Energy Saver"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 3,
+      "category": "direct",
+      "question": "Is the distributor exclusive?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "yes",
+        "exclusive distributor"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 4,
+      "category": "direct",
+      "question": "What is the duration of the agreement?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "10 years",
+        "ten years"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 5,
+      "category": "direct",
+      "question": "What is the payment term?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "30 days",
+        "thirty (30) days"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 6,
+      "category": "direct",
+      "question": "What law governs the agreement?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "Illinois",
+        "State of Illinois"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 7,
+      "category": "paraphrased",
+      "question": "Who signed this contract?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "Electric City Corp",
+        "Electric City of Illinois"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 8,
+      "category": "paraphrased",
+      "question": "What item is the Company selling?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "Energy Saver",
+        "energy efficiency device"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 9,
+      "category": "paraphrased",
+      "question": "Does the distributor have sole rights in Illinois?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "yes",
+        "exclusive"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 10,
+      "category": "paraphrased",
+      "question": "When does the distributor have to pay?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "30 days",
+        "thirty (30) days"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 11,
+      "category": "hard",
+      "question": "What happens if the Company delays delivery and the Distributor loses customer orders?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "credited",
+        "minimum expectation"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 12,
+      "category": "hard",
+      "question": "When can the agreement be terminated immediately?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "insolvent",
+        "bankruptcy",
+        "discontinues its business"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 13,
+      "category": "hard",
+      "question": "What happens to the distributor's right to use the Company name after termination?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "no further right",
+        "license",
+        "terminate"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 14,
+      "category": "negative",
+      "question": "What is the arbitration clause?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "not found in context"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    },
+    {
+      "question_number": 15,
+      "category": "negative",
+      "question": "What commission percentage does the distributor receive?",
+      "expected_answer": null,
+      "expected_keywords": [
+        "not found in context"
+      ],
+      "actual_answer": "",
+      "matched_keywords": [],
+      "match_type": "error",
+      "pass": false,
+      "latency_ms": null,
+      "error": "404 Client Error: Not Found for url: http://127.0.0.1:8000/ask"
+    }
+  ]
+}
